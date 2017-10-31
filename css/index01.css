@@ -1,0 +1,161 @@
+.narbar-right{
+	float: right;
+}
+.g-header .navbar{
+	border: none;
+	margin-bottom: 0;
+}
+.nav-fixed-top{
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	box-shadow: 0 1px 10px rgba(0,0,0,0.1);
+}
+.logo-wrapper .navbar-toggle{
+	margin-top: 23px;
+	outline: none;
+}
+ .g-header .nav{
+	background-color: #fff;
+ }
+ .g-header .nav > li{
+	margin-top: 20px;
+ }
+ .g-header .nav > li > a{
+	height: 40px;
+	line-height: 40px;
+	padding: 0;
+	color: #4c4c4c;
+	padding: 0px 25px;
+	border: none;
+}
+.g-header .nav > li > a:hover{
+	color:#d70e14;
+}
+.g-header .navbar-brand{
+	padding: 14px 15px;
+} 
+.g-header .nav-tabs{
+	border: none;
+}
+.g-header .navbar-default{
+	background: #fff;
+}
+.g-header .navbar-toggle{
+	border:1px solid #666;
+}
+.g-header .navbar-toggle .icon-bar{
+	background-color: #666;
+} 
+.navbar-responsive-collapse .nav{
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+.navbar-responsive-collapse .nav > li{
+	margin-top: 10px;
+}
+.navbar-responsive-collapse .nav > li > a:hover{
+	margin: 0px 5px;
+	background:#d70e14; 
+	border-radius: 5px;
+	color: #fff;
+}
+/* content */
+.g-content{
+	margin-top: 80px;
+	height:2000px;
+}
+
+
+/* business start */
+.g-title-wrapper{
+	margin-top: 80px;
+}
+.g-title{
+	text-align: center;
+	color: #ba292e;
+	font-size: 32px;
+	margin: 0;
+}
+.title-sub{
+	text-align: center;
+	font-size: 0;
+}
+.title-sub span{
+	display: inline-block;
+	vertical-align: top;
+}
+.title-sub .left-line,.title-sub .right-line{
+	width: 100px;
+	height: 28px;
+	position: relative;
+}
+.title-sub .left-line:before{
+	content: "";
+	position: absolute;
+	width: 20px;
+	height: 2px;
+	right: 13px;
+	top: 6px;
+	background-color: #a0a0a0;
+}
+.title-sub .left-line:after{
+	content: "";
+	position: absolute;
+	width: 100px;
+	height: 2px;
+	background-color: #a0a0a0;
+	right: 0;
+	bottom: 10px;
+}
+.title-sub .right-line:before{
+	content: "";
+	position: absolute;
+	width: 20px;
+	height: 2px;
+	left: 13px;
+	top: 6px;
+	background-color: #a0a0a0;
+}
+.title-sub .right-line:after{
+	content: "";
+	position: absolute;
+	width: 100px;
+	height: 2px;
+	background-color: #a0a0a0;
+	left: 0;
+	bottom: 10px;
+}
+.title-sub .text{
+	color: #4c4c4c;
+	font-size: 20px;
+	margin: 0px 10px;
+}
+.title-sub .right-line{
+	
+}
+
+/* end business*/
+
+
+
+
+
+@media (max-width: 767px){
+	.hidden-xs {
+	    display: none !important;
+	}
+}
+/* 小屏幕（平板，大于等于 768px） */
+@media (min-width: 768px) { }
+
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 992px) { }
+
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 1200px) {
+	.container{
+		max-width: 1200px;
+	}
+}

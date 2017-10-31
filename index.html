@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <header class="g-header" id="header">
+    	<nav class="navbar navbar-default nav-fixed-top">	
+	    	<div class="container">
+	    		<div class="logo-wrapper navbar-header">
+	    			 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-responsive-collapse" aria-expanded="false">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				      </button>
+					<a class="navbar-brand" href="#">
+						<img src="images/logo.png" alt="">
+					</a>
+	    		</div>
+	    		<div class="collapse navbar-collapse hidden-xs" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav narbar-right">
+							<li><a href="#index">首页</a></li>
+							<li><a href="#business">主营业务</a></li>
+							<li><a href="#product">产品中心</a></li>
+							<li><a href="#advantage">我们的优势</a></li>
+							<li><a href="#partner">合作伙伴</a></li>					
+							<li><a href="#about_us">关于我们</a></li>
+							<li><a href="#news">新闻中心</a></li>
+						</ul>
+	    		</div>	
+	    		<div class="navbar-responsive-collapse collapse">
+						<ul class="nav navbar-nav">
+							<li><a href="#">首页</a></li>
+							<li><a href="#">主营业务</a></li>
+							<li><a href="#">产品中心</a></li>
+							<li><a href="#">我们的优势</a></li>
+							<li><a href="#">合作伙伴</a></li>					
+							<li><a href="#">关于我们</a></li>
+							<li><a href="#">新闻中心</a></li>
+						</ul>
+	    		</div>
+	    	</div>	
+    	</nav>
+    </header>
+	<div class="container-fluid g-content" id="index">
+		<div id="carousel-example-generic" class="carousel slide banner" data-ride="carousel">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+			</ol>
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner" role="listbox">
+				<div class="item active">
+					<img src="images/BANNER1.jpg" alt="...">
+					<div class="carousel-caption">
+						11111111111111
+					</div>
+				</div>
+				<div class="item">
+					<img src="images/BANNER2.jpg" alt="...">
+					<div class="carousel-caption">
+						222222222222222
+					</div>
+				</div>
+				<div class="item">
+					<img src="images/BANNER2.jpg" alt="...">
+					<div class="carousel-caption">
+						222222222222222
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- business start -->
+		<div class="container business" id="business">
+			<div class="g-title-wrapper">
+				<h2 class="g-title">主营业务</h2>
+				<div class="title-sub">
+					<span class="left-line"></span>
+					<span class="text">MAIN BUSINESS</span>
+					<span class="right-line"></span>
+				</div>
+			</div>	
+			<div class="row">
+				<div class="pic-wrapper col-md-3 col-sm-6">
+					<a href="#">
+						<img src="images/1.png" alt="">
+						<span class="text">整机代工</span>
+					</a>
+				</div>
+				<div class="pic-wrapper col-md-3 col-sm-6">
+					<a href="#">
+						<img src="images/2.png" alt="">
+						<span class="text">背光模组</span>
+					</a>
+				</div>
+				<div class="pic-wrapper col-md-3 col-sm-6">
+					<a href="#">
+						<img src="images/3.png" alt="">
+						<span class="text">广告机</span>
+					</a>
+				</div>
+				<div class="pic-wrapper col-md-3 col-sm-6">
+					<a href="#">
+						<img src="images/4.png" alt="">
+						<span class="text">电梯物联网</span>
+					</a>
+				</div>
+			
+			</div>
+		</div>	
+		<!-- end business -->
+
+		<!-- product start -->
+		<div class="container-fluid product" id="product">
+			<div class="g-title-wrapper">
+				<h2 class="g-title">产品中心</h2>
+				<div class="title-sub">
+					<span class="left-line"></span>
+					<span class="text">product center</span>
+					<span class="right-line"></span>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-sm-6">
+						<a href="#">
+							<img src="images/1.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-md-4 col-sm-6">
+						<a href="#">
+							<img src="images/2.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-md-4 col-sm-6">
+						<a href="#">
+							<img src="images/3.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-md-4 col-sm-6">
+						<a href="#">
+							<img src="images/4.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-md-4 col-sm-6">
+						<a href="#">
+							<img src="images/5.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-md-4 col-sm-6">
+						<a href="#">
+							<img src="images/6.jpg" alt="">
+						</a>
+					</div>
+				</div>	
+			</div>	
+		</div>
+		<!-- end product -->
+		
+		<!-- advantage start -->
+		<div class="container advantage" id="advantage">
+			<div class="g-title-wrapper">
+				<h2 class="g-title">我们的优势</h2>
+				<div class="title-sub">
+					<span class="left-line"></span>
+					<span class="text">our advantage</span>
+					<span class="right-line"></span>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<img src="images/advantage01.png" alt="">
+					</div>
+					<div class="col-md-6 inline-block-wrapper">
+						<div class="advantage-item">
+							<div class="title-wrapper">
+								<span class="title">模具产权</span>
+								<span class="sub-title">经验丰富，设计一流</span>
+							</div>
+							<p class="text">
+								虹天捷智拥有自主模具产权，经验丰富，设计一流	<br />	
+								质量稳定，能协助客户解决技术困扰。
+							</p>	
+						</div>
+						<div class="advantage-item">
+							<div class="title-wrapper">
+								<span class="title">兼容性强</span>
+								<span class="sub-title">解决长期切换的困扰</span>
+							</div>
+							<p class="text">
+								虹天捷智研发的产品结构兼容性强，各OC面板兼 <br />
+								容，解决了OC资源不足，长期切换的困扰。
+							</p>	
+						</div>
+
+					</div>
+				</div>	
+				<div class="row">
+					<div class="col-md-6 col-md-text">
+						<div class="advantage-item">
+							<div class="title-wrapper">
+								<span class="title">成本优势</span>
+								<span class="sub-title">低成本高收益</span>
+							</div>
+							<p class="text">
+								成本优势明显，一体化烤漆，各种尺寸型材通用，<br />
+								全尺寸模组整机套件供应。真正的低成本高收益。
+							</p>	
+						</div>
+						<div class="advantage-item">
+							<div class="title-wrapper">
+								<span class="title">商显专用</span>
+								<span class="sub-title">长期备料，大量库存</span>
+							</div>
+							<p class="text">
+								虹天捷智采用标准背锁，采购不设门槛，长期备 <br />
+								料，大量库存，教育一体或广告商显专用。
+							</p>	
+						</div>
+					</div>
+					<div class="col-md-6 text-right">
+						<img src="images/advantage02.png" alt="">
+					</div>
+				</div>	
+			</div>
+		</div>	
+		<!-- end advantage -->
+
+		<!-- partner start -->
+		<div class="container partner" id="partner">
+			<div class="g-title-wrapper">
+				<h2 class="g-title">合作伙伴</h2>
+				<div class="title-sub">
+					<span class="left-line"></span>
+					<span class="text">coopetative partner</span>
+					<span class="right-line"></span>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-2 col-sm-6 col-md-2-4">
+					<a href="#">
+						<img src="images/partner01.jpg" alt="">
+					</a>
+				</div>
+				<div class="col-md-2 col-sm-6 col-md-2-4">
+					<a href="#">
+						<img src="images/partner02.jpg" alt="">
+					</a>
+				</div>
+				<div class="col-md-2 col-sm-6 col-md-2-4">
+					<a href="#">
+						<img src="images/partner03.jpg" alt="">
+					</a>
+				</div>
+				<div class="col-md-2 col-sm-6 col-md-2-4">
+					<a href="#">
+						<img src="images/partner04.jpg" alt="">
+					</a>
+				</div>
+				<div class="col-md-2 col-sm-6 col-md-2-4">
+					<a href="#">
+						<img src="images/partner05.jpg" alt="">
+					</a>
+				</div>
+				<div class="col-md-2 col-sm-6 col-md-2-4">
+					<a href="#">
+						<img src="images/partner06.jpg" alt="">
+					</a>
+				</div>
+				<div class="col-md-2 col-sm-6 col-md-2-4">
+					<a href="#">
+						<img src="images/partner07.jpg" alt="">
+					</a>
+				</div>
+				<div class="col-md-2 col-sm-6 col-md-2-4">
+					<a href="#">
+						<img src="images/partner08.jpg" alt="">
+					</a>
+				</div>
+				<div class="col-md-2 col-sm-6 col-md-2-4">
+					<a href="#">
+						<img src="images/partner09.jpg" alt="">
+					</a>
+				</div>
+				<div class="col-md-2 col-sm-6 col-md-2-4">
+					<a href="#">
+						<img src="images/partner10.jpg" alt="">
+					</a>
+				</div>	
+			</div>
+		</div>	
+		<!-- end partner -->
+
+		<!-- about_us start -->
+		<div class="container about_us" id="about_us">
+			<div class="g-title-wrapper">
+				<h2 class="g-title">关于我们</h2>
+				<div class="title-sub">
+					<span class="left-line"></span>
+					<span class="text">about us</span>
+					<span class="right-line"></span>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-5 col-sm-6 col-xs-pic">
+						<a href="#">
+							<img src="images/about_us.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-md-7 col-sm-6 col-xs-text">
+						<h3 class="title">公司简介</h3>
+						<p class="text">
+							江苏虹天捷智科技有限公司成立于2017年5月，由江苏虹天电器有限公司与深圳中电捷智科技有限公司合资，是国内从系统软件研发、设备硬件研发、液晶光学材料、整机生产全产业链的专业商用显示设备生产研发制造的高新科技企业。生产项目：背光板、模组、广告机、教育机、电梯物联网等，公司目前拥有2条先进自动化整机生产线
+						</p>
+						<p class="text">
+							 我们秉承“专注、专业、创新、共赢”的企业理念，长期致力于交通、传媒、政府、金融、通信、娱乐、教育、酒店、商超连锁等行业的信息传播需求，提供专业的数字标牌、液晶拼接、智能终端等软件产品和系统方案...
+						</p>
+						<a href="#" class="more">了解更多</a>
+					</div>
+				</div>	
+			</div>	
+		</div>	
+		<!-- end about_us -->
+		<div class="container news" id="news">
+			<div class="g-title-wrapper">
+				<h2 class="g-title">新闻中心</h2>
+				<div class="title-sub">
+					<span class="left-line"></span>
+					<span class="text">news</span>
+					<span class="right-line"></span>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<a href="#" class="thumbnail">
+						<img src="images/news01.jpg" alt="">
+					</a>
+					<div class="caption">
+						<h3>中国国家博物馆屋面防水工程</h3>
+						<p>中国国家博物馆屋面防水工程，这是一个典型的多材质基面防水工程。不同材质...</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<a href="#" class="thumbnail">
+						<img src="images/news02.jpg" alt="">
+					</a>
+					<div class="caption">
+						<h3>中国国家博物馆屋面防水工程</h3>
+						<p>中国国家博物馆屋面防水工程，这是一个典型的多材质基面防水工程。不同材质...</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<a href="#" class="thumbnail">
+						<img src="images/news03.jpg" alt="">
+					</a>
+					<div class="caption">
+						<h3>中国国家博物馆屋面防水工程</h3>
+						<p>中国国家博物馆屋面防水工程，这是一个典型的多材质基面防水工程。不同材质...</p>
+					</div>
+				</div>
+			</div>
+			<div class="more">
+				<a href="#">
+					
+				</a>
+			</div>	
+		</div>
+		<!-- end about_us -->
+
+		<!-- footer start-->
+		<div class="container-fluid footer">
+			<div class="container footer-content">
+				<div class="row top">
+					<div class="col-md-3 col-sm-4">
+						<a href="#"><img src="images/qq.png" alt=""></a>
+						<a href="#"><img src="images/qq.png" alt=""></a>
+						<a href="#"><img src="images/qq.png" alt=""></a>
+					</div>
+					<div class="col-md-4 col-sm-6">
+						<span>服务电话：13719370959</span>
+					</div>
+					<div class="col-md-2 col-sm-2 col-md-offset-3 text-center">
+						<a href="#">了解更多</a>
+					</div>
+				</div>	
+				<div class="row bottom">
+					<div class="col-md-3 bottom-left col-sm-6">
+						<h3>江苏虹天捷智科技有限公司</h3>
+						<p>
+							<span class="fa fa-phone fa-2x"></span>
+							<span>电话：13719370959</span>
+						</p>
+						<p>
+							<span class="fa fa-envelope fa-2x"></span>
+							<span>邮箱：wangchunjiao@htjztec.com </span>
+						</p>
+						<p>
+							<span class="fa fa-map-marker fa-2x"></span>
+							<span>地址：江苏淮安市盱眙县盱城镇工业集中区</span>
+						</p>
+					</div>
+					<div class="col-md-5 col-md-offset-2 col-sm-6 bottom-right">
+						<h3>友情链接</h3>
+						<ul>
+							<li><a href="#">广州中电捷智</a></li>
+							<li><a href="#">江苏虹天电器</a></li>
+							<li><a href="#">凡客科技</a></li>
+							<li><a href="#">LC一体模组</a></li>
+							<li><a href="#">整机资源共享</a></li>
+							<li><a href="#">东莞正一金属</a></li>	
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- end footer-->
+
+	</div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.1.12.4.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+		$(function(){
+			$('.g-header .nav > li > a').click(function(event){
+				$('body, html').stop(true,false).animate({
+					scrollTop: $($(this).attr('href')).offset().top-50+"px"
+				},600);
+				return false;
+			});
+
+			$(window).resize(function(){
+				if($(window).width() >= 768){
+					$('.g-header .navbar-responsive-collapse').addClass('collapse-hide')
+				}else{
+					$('.g-header .navbar-responsive-collapse').removeClass('collapse-hide');
+				}
+			});
+		});
+    </script>
+  </body>
+</html>
